@@ -1,0 +1,16 @@
+header
+{
+background-color: black;
+overflow: hidden;
+}
+header>div
+{
+    float: left;
+    transform: translate(135%,0%);
+}
+header>div>a
+{
+    font-size: 50px;
+    color: coral ;
+    text-decoration: none;
+}

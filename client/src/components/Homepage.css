@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+    overflow: hidden;
+
+}
+.homepage
+{
+    float: left;
+    width: 100%;
+}
+.result{
+    float: left;
+    transform: translate(66%, 0%);
+    width: 44%;
+}
+#request
+{
+    width: 50%;
+    float: left;
+    transform: translate(64%, 0%);
+}
+
+#main > div > div > div.ah.dc.dd.de > div.ao.ap.as.b3.b4.df.d2.ec.ed.ee.dm.ef
+{
+    display: none;
+}
+#loading>img
+{
+    transform: translate(31%, 0%);
+    width: 50% !important;
+}
+#spotifyPlayer
+{
+    float: left;
+    transform: translate(50%, 0%);
+    width: 50%;
+}
