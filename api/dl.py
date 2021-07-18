@@ -101,7 +101,7 @@ if lenk.find('https://open.spotify.com') != 1:
         path = get_download_path()
 
         ''' add a CUSTOM PATH for download loaction (remove '#' from the line BELOW & add the new PATH inside ' '(quotes) '''
-        path = 'C:\MAMP\htdocs\spotify\api\downloads'
+        path = 'C:/MAMP/htdocs/spotify converter/api/downloads'
 
         # Main Download Script
         def run():

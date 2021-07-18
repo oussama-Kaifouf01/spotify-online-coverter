@@ -44,7 +44,6 @@ function SpotifyPlayer(props)
         }
 
     return spotifyelement
-    //<iframe src={'https://open.spotify.com/embed/track/'+props.musicIDs}  id="ParentOne" frameborder="0" allowtransparency="true" allow="encrypted-media" style={{height: "380px" , width: "300px",transform:"translate(30%,0%)"}}></iframe>
 }
 
 export default SpotifyPlayer;

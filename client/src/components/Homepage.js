@@ -7,14 +7,11 @@ import { useState } from 'react';
 
 
 function Homepage() {
-  //var musicIDg=;
   var [musicIDg,setMusicIDg]=useState("")
 
   function getMusicID(musicIDval)
     {
       setMusicIDg(musicIDval)
-      //musicIDg=musicIDval;
-      //console.log(musicIDg);
     }
   return (
     <div>

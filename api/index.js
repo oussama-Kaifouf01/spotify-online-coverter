@@ -45,13 +45,10 @@ app.post('/api', function (req, res)
         text=stdout
         text=text.split(/\r?\n/)
         text=text[text.length-3]
-        text=text.substr(22,text.length-1)
+        text=text.substr(69,text.length-1)
         console.log(text)
         res.send(text)
     });
 })
-
-
-
 
 app.listen(5000,()=>console.log("listenning"))
